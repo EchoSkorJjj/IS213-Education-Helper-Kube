@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: contents
-        image: 397789365835.dkr.ecr.ap-southeast-1.amazonaws.com/esd-eduhelper-eks-ecr-production:contents
+        image: 397789365835.dkr.ecr.ap-southeast-1.amazonaws.com/esd-eduhelper-eks-ecr-production:contents-2eeb00d2761f9d986e2117f53e40649e5de30477
         imagePullPolicy: Always
         ports:
         - containerPort: 50051
