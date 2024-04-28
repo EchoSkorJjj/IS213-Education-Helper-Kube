@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: process-chunks
-        image: 397789365835.dkr.ecr.ap-southeast-1.amazonaws.com/esd-eduhelper-eks-ecr-production:process-chunks
+        image: 397789365835.dkr.ecr.ap-southeast-1.amazonaws.com/esd-eduhelper-eks-ecr-production:process-chunks-5eabb53fc8afb72c4dd6efb7f2ca381b577057fc
         imagePullPolicy: Always
         ports:
         - containerPort: 50051
