@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: notes
-        image: 397789365835.dkr.ecr.ap-southeast-1.amazonaws.com/esd-eduhelper-eks-ecr-production:notes
+        image: 397789365835.dkr.ecr.ap-southeast-1.amazonaws.com/esd-eduhelper-eks-ecr-production:notes-f54b271f303b5f839b22432540012089b0c57266
         imagePullPolicy: Always
         ports:
         - containerPort: 50052
