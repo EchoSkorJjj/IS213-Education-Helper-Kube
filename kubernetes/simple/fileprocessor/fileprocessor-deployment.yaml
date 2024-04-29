@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: fileprocessor
-        image: 397789365835.dkr.ecr.ap-southeast-1.amazonaws.com/esd-eduhelper-eks-ecr-production:fileprocessor-42430f05215503ba9d96992eaae4c306600b72a3
+        image: 397789365835.dkr.ecr.ap-southeast-1.amazonaws.com/esd-eduhelper-eks-ecr-production:fileprocessor-70375fdab63f876ea51ed846873bfc7df4e3fa60
         imagePullPolicy: Always
         ports:
         - containerPort: 50053
