@@ -4,7 +4,7 @@ metadata:
   name: fileprocessor
   namespace: eduhelper
 spec:
-  replicas: 2
+  replicas: 6
   selector:
     matchLabels:
       app: fileprocessor
